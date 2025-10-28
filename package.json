@@ -1,0 +1,45 @@
+{
+  "author": "Ruben Shalimov <r_shalimov@inbox.ru>",
+  "bugs": {
+    "url": "https://github.com/RobinBobin/eslint-config-react/issues"
+  },
+  "description": "My ESLint config for React (Native) projects",
+  "devDependencies": {
+    "@robinbobin/eslint-config": "^0.0.2",
+    "@robinbobin/prettier-config": "^0.0.3",
+    "@robinbobin/ts-config": "^0.0.4",
+    "eslint": "^9.38.0",
+    "eslint-plugin-react-hooks": "^7.0.1"
+  },
+  "exports": {
+    ".": {
+      "default": "./eslint.config.js",
+      "types": "./js/eslint.config.d.ts"
+    }
+  },
+  "files": [
+    "eslint.config.js",
+    "js"
+  ],
+  "homepage": "https://github.com/RobinBobin/eslint-config-react#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "react"
+  ],
+  "name": "@robinbobin/eslint-config-react",
+  "packageManager": "pnpm@10.20.0+sha512.cf9998222162dd85864d0a8102e7892e7ba4ceadebbf5a31f9c2fce48dfce317a9c53b9f6464d1ef9042cba2e02ae02a9f7c143a2b438cd93c91840f0192b9dd",
+  "peerDependencies": {
+    "@robinbobin/eslint-config": "^0.0.2",
+    "eslint-plugin-react-hooks": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinBobin/eslint-config-react.git"
+  },
+  "scripts": {
+    "prepack": "./prepack.sh"
+  },
+  "type": "module",
+  "version": "0.0.1"
+}

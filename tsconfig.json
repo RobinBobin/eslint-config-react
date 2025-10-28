@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "js"
+  },
+  "extends": "@robinbobin/ts-config",
+  "files": ["eslint.config.js"]
+}
