@@ -22,7 +22,9 @@
   },
   "files": [
     "eslint.config.js",
-    "js"
+    "eslint.config.js_",
+    "js",
+    "postinstall.sh"
   ],
   "homepage": "https://github.com/RobinBobin/eslint-config-react#readme",
   "keywords": [
@@ -37,6 +39,7 @@
     "url": "git+https://github.com/RobinBobin/eslint-config-react.git"
   },
   "scripts": {
+    "postinstall": "chmod u+x postinstall.sh && ./postinstall.sh",
     "prepack": "./prepack.sh"
   },
   "type": "module",
